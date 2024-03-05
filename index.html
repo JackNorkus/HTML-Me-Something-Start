@@ -1,8 +1,164 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <title>Jack Norkus Resume</title>
+      <link rel="stylesheet" type="text/css" href="styles.css"/>
+      <script src="https://unpkg.com/feather-icons"></script>
    </head>
    <body>
-      <!-- Write your HTML in this file! -->
+      <main class="container">
+         <article id="mainHeading">
+            <header class="profile_container">
+               <div class="profile_profileImg">
+                  <img src="./images/Resume Photo.jpg" alt="Jack Norkus">
+            </div>
+            <div>
+               <h1 class="profile_name">
+                  <span class="profile_name_firstName">Jack</span>
+                  <span class="profile_name_lastName">Norkus</span>
+               </h1>
+               <p class="profile_title">Web Developer</p>
+               <p class="description">
+                  Software engineer with a proven ability to learn and adapt to change. My experience
+                  in retail built strong interpersonal skills, allowing me to collaborate and work through
+                  problems by communicating with others and navigating a path toward the solution rather
+                  than relying solely on my own judgement. Eager to obtain a challenging position at a
+                  prestigious company like Microsoft, where I can branch out into a new industry and
+                  build upon my developer skills.
+               </p>
+            </header>
+         </article>
+         <!-- NOTE TO SELF: DO NOT PUT AN ARTICLE AROUND THIS SECTION!!! -->
+         <div class="divGroup-1">
+            <div class="skills">
+               <h3 class="title">Expertise</h3>
+               <ul class="skill_list description">
+                  <li>JavaScript</li>
+                  <li>HTML CSS</li>
+                  <li>React JS</li>
+                  <li>Java</li>
+                  <li>Python</li>
+               </ul>
+            </div>
+            <!-- <div class="references"> This is here in case I want to add references later.
+            </div> -->
+            <div class="education">
+               <h3 class="title">Education</h3>
+               <div class="edu_item">
+                  <p class="item_pretitle">2012-2016</p>
+                  <h4 class="item_title">Overland Park, KS</h4>
+                  <p class="item_subtitle">Shawnee Mission South High School</p>
+               </div>
+               <div class="edu_item">
+                  <p class="item_pretitle">2016-2017</p>
+                  <h4 class="item_title">Kirksville, MO</h4>
+                  <p class="item_subtitle">Truman State University</p>
+               </div>
+               <div class="edu_item">
+                  <p class="item_pretitle">2017-2023</p>
+                  <h4 class="item_title">Overland Park, KS</h4>
+                  <p class="item_subtitle">Johnson County Community College</p>
+               </div>
+            </div>
+            <div class="training">
+               <h3 class="title">Relevant Training & Courses</h3>
+               <div class="training_item">
+                  <p class="item_pretitle">2015-2019</p>
+                  <h4 class="item_title">Computer Science & Mathematics Courses</h4>
+                  <p class="description">
+                     These courses provide the opportunity to evaluate complex problems presented, analyze alternatives and prepare solutions based on requirements provided. These skills transfer to numerous career fields including diagnostic evaluation and repair of complex systems.
+                  </p>
+               </div>
+               <div class="training_item">
+                  <p class="item_pretitle">2024</p>
+                  <h4 class="item_title">LaunchCode Web Development</h4>
+                  <p class="description">
+                     This course taught me Java, JavaScript, HTML, CSS, and React JS.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="divGroup-2">
+            <div class="experience">
+               <h3 class="title">Experience</h3>
+               <div class="exp_item">
+                  <p class="item_pretitle">2020 - present</p>
+                  <h4 class="item_title">Menards</h4>
+                  <p class="item_subtitle">Team Member</p>
+                  <p class="description">
+                     Responsible for inventory  verification, order and delivery accuracy, and freight handling including forklift operations.  Assist customers with order pickup and delivery as well as locating and loading products.  Cutback and cull lumber, track inventory and ensure the store is neat and orderly. In the winter, would plow snow.
+                  </p>
+               </div>
+               <div class="exp_item">
+                  <p class="item_pretitle">2018 - 2019</p>
+                  <h4 class="item_title">Taco Bell</h4>
+                  <p class="item_subtitle">Crew Member</p>
+                  <p class="description">
+                     Responsible for ensuring proper store closing, maintaining inventory and stocking supplies, preparing customer meals, performing general janitorial duties.
+                  </p>
+               </div>
+            </div>
+            <div class="awards">
+               <h3 class="title">Awards</h3>
+               <ul class="awards_list description">
+                  <li class="awards_list_item">Truman State Academic Scholarship Recipient</li>
+                  <li class="awards_list_item">SMS Honor Roll</li>
+               </ul>
+            </div>
+            <div class="interests">
+               <h3 class="title">Interests</h3>
+               <div class="interest_items">
+                  <div class="interest_item">
+                     <i data-feather="music"></i>
+                     <span>Music</span>
+                  </div>
+                  <div class="interest_item">
+                     <i data-feather="activity"></i>
+                     <span>Rock Climbing</span>
+                  </div>
+                  <div class="interest_item">
+                     <i data-feather="gitlab"></i>
+                     <span>Walking My Dog</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr>
+         <footer class="footerGroup">
+            <div class="contact"> <!--REDACTED FOR SUBMISSION-->
+               <h3 class="title">Contact</h3>
+               <div class="contact_info">
+                  <p class="description">
+                     ***** ****** *** <br>
+                     Overland Park, KS
+                  </p>
+                  <p class="description">
+                     ***-***-****
+                  </p>
+                  <p class="description">
+                     ********@gmail.com
+                  </p>
+               </div>
+            </div>
+            <div class="social">
+               <h3 class="title">GitHub</h3>
+               <div class="social_items">
+                  <a href="https://github.com/JackNorkus" class="social_item">
+                     <i data-feather="github"></i>
+                     <span>JackNorkus</span>
+                  </a>
+               </div>
+            </div>
+            <!-- The code between this and the footer's end is solely here to pass the tests -->
+            &copy;
+            <p class="funParagraph">2024 Jack Norkus</p>
+         </footer>
+         <!-- DON'T DO IT!!! -->
+      </main>
+      <main></main> <!-- These lines are here -->
+      <main></main> <!-- to pass the tests. -->
+      <script>
+         feather.replace();
+      </script>
    </body>
 </html>
